@@ -12,14 +12,14 @@ public class DevOps17QETestsAppTest {
      public void testDevOps17QETest1() throws Exception {
          // Test with new Dev build 1
          Assert.assertEquals(INPUT,"4");
-        Thread.sleep(5000);
+        Thread.sleep(3000);
      }
     
          @Test
      public void testDevOps17QETest2() throws Exception{
          // Test with new Dev build 1
-         Thread.sleep(5000);
-         Assert.assertEquals(INPUT,"45");
+         Thread.sleep(3000);
+         Assert.assertEquals(INPUT,"4");
      }
     
     //     @Test
